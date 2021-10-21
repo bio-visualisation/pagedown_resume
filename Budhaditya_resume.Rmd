@@ -1,0 +1,291 @@
+---
+title: "Budhaditya's resume"
+author: Budhaditya Basu
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+  knit: pagedown::chrome_print
+---
+
+```{css, echo=FALSE}
+.location{
+  display: none;
+}
+#aside2 > h1 {
+display: none;
+}
+#aside2{
+  padding: 0 0 0.6in 0.2in;
+  font-size: 0.8rem;
+  height: var(--content-area-height);
+}
+.aside2{
+  width: var(--sidebar-width);
+  font-size: 0.8rem;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+/* sidebar */
+.aside2 li::before {
+  content: none;
+}  
+  
+#skills2 > h2{
+  margin: 0.05in 0 0.15in;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+.aside2 .level2{
+  margin-top: 0.5in;
+}
+#skills2{
+  line-height: 1.5;
+}
+#skills2 ul{
+  margin: 0.05in 0 0.15in;
+  padding: 0 10px 0 10px;
+}
+```
+
+Aside
+====================================
+<i class="fas fa-id-card"></i> Contact
+-------------------------------------
+
+<i class="fa fa-envelope"></i> budhadityabasu93@gmail.com
+
+<i class="fab fa-github"></i> <a href="https://github.com/bio-visualisation"> github.com/bio-visualisation </a>
+
+<i class="fab fa-twitter"></i> <a href = "https://twitter.com/VizBio"> twitter.com/VizBio </a>
+
+<i class="fas fa-phone"></i> 07907547176
+
+
+<i class="fas fa-code"></i>  Coding Skills
+------------------------------------
+
+- <i class="fab fa-r-project"></i>  R / tidyverse / Shiny
+
+- <i class="fab fa-python"></i>  Python
+
+- <i class="fas fa-terminal"></i>  Shell script
+
+
+<i class="fas fa-chart-pie"></i> Data Analysis
+------------------------------------
+<font align="justify"><i class="fas fa-caret-right"></i>Bulk gene expression deconvolution by scRNA-Seq data (e.g.,scaden)<br><br>
+<i class="fas fa-caret-right"></i> RNA-Seq alignment (e.g.,STAR)<br><br>
+<i class="fas fa-caret-right"></i>Differential gene expression (e.g.,DESeq2)<br><br>
+<i class="fas fa-caret-right"></i>Circular RNA (e.g.,CIRI)<br><br>
+<i class="fas fa-caret-right"></i>Alternative polyadenylation(e.g.,qapa)<br><br>
+<i class="fas fa-caret-right"></i>Gene Set Enrichment Analysis (e.g.,GSEA)<br><br>
+<i class="fas fa-caret-right"></i>Data visualization (e.g.,ggplot2)</font>
+
+
+
+
+
+Main
+====================================
+
+budhaditya basu {#title}
+------------------------------------
+
+<p align = "justify">I am pursuing doctoral studies in Biotechnology. My research work focuses on 
+the back-splicing events in mammalian retina and its role in axon 
+guidance. I code for biological data analysis, visualization as well as statistics. I use cluster computer for handling big data like 
+bulk RNA-Seq as well as single-cell RNA-Seq.</p> 
+
+Education {data-icon=graduation-cap}
+------------------------------------
+
+### Rajiv Gandhi Centre for Biotechnology
+
+PhD in Biotechnology <br> Neuro Stem Cell Biology Lab <br> Supervisor: Dr. Jackson James
+
+Trivandrum, India
+
+2017 - Present
+
+
+
+### North Eastern Hill University
+
+M.Sc. in Biotechnology
+
+Shillong, India
+
+2014 - 2016
+
+<i class="fas fa-medal"></i> Gold Medalist
+
+
+Work Experience {data-icon=briefcase}
+------------------------------------
+
+### National Brain Research Centre
+
+Junior Research Fellow <br> Synapse Lab <br> Supervisor: Dr. Sourav Banerjee
+
+Gurgaon, India
+
+2016 - 2017
+
+<br>
+<i class="fas fa-hand-point-right"></i><em>Research Project:  Role of novel lnc RNAs in synapse formation </em> <br>
+<i class="fas fa-caret-right"></i> Localisation of  novel lncRNAs in primary hippocampal neuronal cultures by FISH.<br><br>
+<i class="fas fa-hand-point-right"></i><em>Research Project: Coordinated translation and proteosomal degradation events promote homeostatic plasticity in neurons</em> <br>
+
+Expertise {data-icon=flask}
+-----------------------------------
+### Laboratory Techniques
+
+<b>Cell Culture</b><br><i class="fas fa-caret-right"></i>HEK293T cell line, Primary neurons from hippocampus and retina<br><i class="fas fa-caret-right"></i>Lentivirus preparation & concentration<br><i class="fas fa-caret-right"></i> Adeno-associated virus (AAV) preparation & concentration<br>
+<b>Molecular techniques</b><br>
+<i class="fas fa-caret-right"></i>Traditional and Infusion Cloning<br>
+<i class="fas fa-caret-right"></i>Immunocytochemistry,FISH<br>
+<b>Transgenic lines </b> <br><i class="fas fa-caret-right"></i>Maintenance, breeding, ear-tagging & genotyping<br>
+<b>Laboratory Animals</b><br>
+<i class="fas fa-caret-right"></i>Maintaining & breeding for timed pregnant experiments<br>
+<b>Expression studies</b><br>
+<i class="fas fa-caret-right"></i>Western Blot & Densitometric analysis<br><i class="fas fa-caret-right"></i>qRT-PCR<br>
+<b>Laser Scanning Confocal Imaging</b>
+
+N/A
+
+N/A
+
+\newpage
+
+
+Workshops {data-icon=group}
+------------------------------------
+### Big Data Analysis in Life Science and Healthcare
+
+Building Bharat Boston Bioscience (B4) Program<br>
+Department of Biotechnology | Govt. of India
+
+N/A
+
+March 2021
+
+### RNA-Seq Data Analysis Hands-on Workshop
+
+Massive Data Anlytics | University of Kerala
+
+Trivandrum, India
+
+Sept 2019
+
+### Hands-on RNA-Seq data analysis with R programming
+
+Institute of Bioinformatics and Applied Biotechnology (IBAB)
+
+Bangalore, India
+
+June 2019
+
+::: aside
+
+:::
+
+### Certificate Course on Laboratory Animal Science
+
+Animal Research Facility<br>Rajiv Gandhi Centre for Biotechnology
+
+Trivandrum, India
+
+Dec 2017
+
+
+
+
+Scholarships and Certificates {data-icon=certificate}
+------------------------------------
+### Student Merit Award 
+Best Oral Presentation <br>
+Rajiv Gandhi Centre for Biotechnology
+
+N/A
+
+Nov 2019
+
+### Rector's Gold Medal 
+
+North Eastern Hill University
+
+N/A
+
+2017
+
+### Junior Research Fellowship
+
+CSIR-UGC NET Life Science
+
+N/A
+
+2015
+
+### JNU CBEE M.Sc Biotechnology scholarship
+
+DBT, Govt. of India
+
+N/A
+
+2014-2016
+
+Publication/Preprints {data-icon=file}
+--------------------------------------
+### Pax6 Modulates Intra-Retinal Axon Guidance and Fasciculation of Retinal Ganglion Cells during Retinogenesis
+
+Scientific Reports
+
+N/A
+
+2020
+
+<i class="fas fa-link"></i> <a href = "https://doi.org/10.1038/s41598-020-72828-4">nature.com/articles</a>
+
+Aside2
+================================================================================
+
+
+&nbsp; &nbsp; <i class="fa fa-cube"></i> Shiny App {#skills2}
+----------------------------------------------------------------
+- &nbsp; &nbsp; &nbsp; <i class="fas fa-link"></i> <a href = "https://1c8ogh-budhaditya-basu.shinyapps.io/scb_lab/?_ga=2.4587379.1332503414.1634207746-1453024069.1631416750">budhaditya-basu.shinyapps.io</a><br>
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bundles of plots
+<br><br><br>
+
+
+&nbsp; &nbsp; <i class="fas fa-book-open"></i> Literate Coding {#skills2}
+----------------------------------------------------------------
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LaTex <br>
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R Markdown
+<br><br><br>
+
+&nbsp; &nbsp; <i class="fas fa-drafting-compass"></i> Illustration Skills {#skills2}
+----------------------------------------------------------------
+
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fas fa-caret-right"></i> Adobe Illustrator <br>
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fas fa-caret-right"></i> Adobe Photoshop<br>
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fas fa-caret-right"></i> ImageJ
+<br><br><br>
+
+&nbsp; &nbsp; <i class="fas fa-bookmark"></i> Citation tools {#skills2}
+----------------------------------------------------------------
+
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fas fa-caret-right"></i> Zotero <br>
+- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fas fa-caret-right"></i> Mendeley
+
+
+Disclaimer
+------------------------------------
+
+<br><br>Résumé generated <br>in R with <i class="fas fa-heart"></i> and <a href="https://github.com/rstudio/pagedown"> pagedown </a> <br><br>Last updated: October 15, 2021
+
+
+
+
